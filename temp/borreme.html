@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Wordmatch</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/reset.css?v=1.0">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="barraTiempo" id="timer">
+			<span class="barra"></span>
+		</div>
+		<div id="areaJuego">			
+			<input type="text" id="puntaje" class="puntaje" readonly="readonly" value="0" />
+		</div>
+		<div  class="mainPanel" id="mainPanel">
+			<h1>Wordmatch</h1>
+			<p class="instrucciones">Escribe la mayor cantidad de palabras que puedas y logra el mejor puntaje</p>
+			<ol class="marcador" id="marcador"></ol>
+			<a href="#" id="botonInicia" class="btnInicio">¡Empezar!</a>
+		</div>
+		<input type="text" class="inputText" id="inputPalabra" />
+	</div>
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.highlight.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
